@@ -184,17 +184,18 @@ export const promptPlaceholders: string[] = [
 ];
 
 export const galleryItems: GalleryItem[] = [
-  // 템플릿 기반 — 12개 전체
-  { id: 'g1', templateId: 'epic-battle', title: '손오공 vs 나루토', views: 12400, likes: 890, createdAt: '2시간 전', creationMode: 'template' },
-  { id: 'g2', templateId: 'superpower-clash', title: '마리오 vs 소닉 에너지 대결', views: 8900, likes: 654, createdAt: '4시간 전', creationMode: 'template' },
-  { id: 'g3', templateId: 'kpop-dance', title: '내 캐릭터들의 K-POP 댄스', views: 6700, likes: 432, createdAt: '6시간 전', creationMode: 'template' },
-  { id: 'g4', templateId: 'rap-battle', title: '아인슈타인 vs 뉴턴 랩배틀', views: 15200, likes: 1100, createdAt: '8시간 전', creationMode: 'template' },
-  { id: 'g5', templateId: 'boxing-match', title: '고양이 vs 강아지 복싱', views: 9800, likes: 776, createdAt: '12시간 전', creationMode: 'template' },
-  { id: 'g6', templateId: 'chase-scene', title: '아기 vs 로봇 추격전', views: 5400, likes: 321, createdAt: '1일 전', creationMode: 'template' },
-  { id: 'g7', templateId: 'sword-duel', title: '사무라이 테디베어 대결', views: 7300, likes: 543, createdAt: '1일 전', creationMode: 'template' },
-  { id: 'g8', templateId: 'dramatic-meeting', title: '우리 부모님 첫만남 재현', views: 4200, likes: 287, createdAt: '2일 전', creationMode: 'template' },
-  { id: 'g9', templateId: 'dance-battle', title: '스파이더맨 vs 데드풀 댄스배틀', views: 10300, likes: 812, createdAt: '5시간 전', creationMode: 'template' },
-  { id: 'g10', templateId: 'music-video', title: '내 강아지 뮤직비디오', views: 8100, likes: 598, createdAt: '9시간 전', creationMode: 'template' },
-  { id: 'g11', templateId: 'horror-react', title: '친구 깜짝 놀래키기', views: 13600, likes: 1020, createdAt: '11시간 전', creationMode: 'template' },
-  { id: 'g12', templateId: 'cooking-showdown', title: '고든 램지 vs 백종원', views: 16800, likes: 1250, createdAt: '14시간 전', creationMode: 'template' },
+  // 앞 4개 = 랜딩 GalleryPreview에 표시 (TemplateShowcase 인기 4개와 겹치지 않도록)
+  { id: 'g1', templateId: 'cooking-showdown', title: '고든 램지 vs 백종원', views: 16800, likes: 1250, createdAt: '14시간 전', creationMode: 'template' },
+  { id: 'g2', templateId: 'horror-react', title: '친구 깜짝 놀래키기', views: 13600, likes: 1020, createdAt: '11시간 전', creationMode: 'template' },
+  { id: 'g3', templateId: 'dance-battle', title: '스파이더맨 vs 데드풀 댄스배틀', views: 10300, likes: 812, createdAt: '5시간 전', creationMode: 'template' },
+  { id: 'g4', templateId: 'boxing-match', title: '고양이 vs 강아지 복싱', views: 9800, likes: 776, createdAt: '12시간 전', creationMode: 'template' },
+  // 나머지
+  { id: 'g5', templateId: 'epic-battle', title: '손오공 vs 나루토', views: 12400, likes: 890, createdAt: '2시간 전', creationMode: 'template' },
+  { id: 'g6', templateId: 'superpower-clash', title: '마리오 vs 소닉 에너지 대결', views: 8900, likes: 654, createdAt: '4시간 전', creationMode: 'template' },
+  { id: 'g7', templateId: 'kpop-dance', title: '내 캐릭터들의 K-POP 댄스', views: 6700, likes: 432, createdAt: '6시간 전', creationMode: 'template' },
+  { id: 'g8', templateId: 'rap-battle', title: '아인슈타인 vs 뉴턴 랩배틀', views: 15200, likes: 1100, createdAt: '8시간 전', creationMode: 'template' },
+  { id: 'g9', templateId: 'chase-scene', title: '아기 vs 로봇 추격전', views: 5400, likes: 321, createdAt: '1일 전', creationMode: 'template' },
+  { id: 'g10', templateId: 'sword-duel', title: '사무라이 테디베어 대결', views: 7300, likes: 543, createdAt: '1일 전', creationMode: 'template' },
+  { id: 'g11', templateId: 'music-video', title: '내 강아지 뮤직비디오', views: 8100, likes: 598, createdAt: '9시간 전', creationMode: 'template' },
+  { id: 'g12', templateId: 'dramatic-meeting', title: '우리 부모님 첫만남 재현', views: 4200, likes: 287, createdAt: '2일 전', creationMode: 'template' },
 ];
