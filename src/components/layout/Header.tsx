@@ -58,7 +58,7 @@ export default function Header() {
         {/* 로고 */}
         <Link href="/" className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan focus-visible:ring-offset-2 focus-visible:ring-offset-background rounded-md">
           <span className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-tight text-foreground">
-            ClipArena
+            VibeClip
           </span>
         </Link>
 

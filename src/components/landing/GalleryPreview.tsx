@@ -18,7 +18,7 @@ export default function GalleryPreview() {
             다른 사람들이 만든 영상
           </h2>
           <p className="mt-3 text-foreground/50">
-            ClipArena 커뮤니티의 인기 클립을 만나보세요.
+            VibeClip 커뮤니티의 인기 클립을 만나보세요.
           </p>
         </div>
 

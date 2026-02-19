@@ -26,11 +26,11 @@ export default function ResultViewer({
 
   const handleShare = async () => {
     const title = mode === "template" && template
-      ? `ClipArena - ${template.name}`
-      : "ClipArena AI 영상";
+      ? `VibeClip - ${template.name}`
+      : "VibeClip AI 영상";
     const text = mode === "template" && template
-      ? `${template.name} 영상을 ClipArena에서 만들어봤어요!`
-      : "AI로 만든 영상을 ClipArena에서 확인하세요!";
+      ? `${template.name} 영상을 VibeClip에서 만들어봤어요!`
+      : "AI로 만든 영상을 VibeClip에서 확인하세요!";
 
     const shareData = { title, text, url: window.location.origin };
 

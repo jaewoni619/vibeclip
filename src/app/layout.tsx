@@ -3,20 +3,20 @@ import { ToastProvider } from "@/components/ui/Toast";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ClipArena - AI 영상 생성 플랫폼",
+  title: "VibeClip - AI 영상 생성 플랫폼",
   description: "텍스트 프롬프트로 고품질 AI 영상을 몇 초 만에 생성하세요. 프롬프트가 어렵다면 템플릿으로 바로 시작.",
   keywords: ["AI 영상", "영상 생성", "AI 비디오", "프롬프트 영상", "템플릿 영상", "바이럴 영상"],
-  metadataBase: new URL("https://cliparena.pages.dev"),
+  metadataBase: new URL("https://vibeclip.pages.dev"),
   openGraph: {
-    title: "ClipArena - AI 영상 생성 플랫폼",
+    title: "VibeClip - AI 영상 생성 플랫폼",
     description: "텍스트 프롬프트로 고품질 AI 영상을 몇 초 만에 생성하세요.",
-    siteName: "ClipArena",
+    siteName: "VibeClip",
     type: "website",
     locale: "ko_KR",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ClipArena - AI 영상 생성 플랫폼",
+    title: "VibeClip - AI 영상 생성 플랫폼",
     description: "텍스트 프롬프트로 고품질 AI 영상을 몇 초 만에 생성하세요.",
   },
   robots: {

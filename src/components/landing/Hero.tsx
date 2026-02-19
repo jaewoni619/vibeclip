@@ -246,7 +246,7 @@ export default function Hero() {
               <div className="h-3 w-3 rounded-full bg-foreground/10" />
               <div className="h-3 w-3 rounded-full bg-foreground/10" />
             </div>
-            <span className="ml-2 text-xs text-foreground/30">ClipArena</span>
+            <span className="ml-2 text-xs text-foreground/30">VibeClip</span>
           </div>
 
           {/* Demo content area */}

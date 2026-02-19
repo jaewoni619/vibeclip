@@ -54,7 +54,7 @@ export default function GalleryPage() {
               갤러리
             </h1>
             <p className="mt-1 text-sm text-foreground/50">
-              ClipArena 커뮤니티가 만든 영상을 구경해보세요.
+              VibeClip 커뮤니티가 만든 영상을 구경해보세요.
             </p>
           </div>
 
