@@ -8,29 +8,34 @@ type DemoPhase = "typing" | "ready" | "generating" | "result";
 
 const demoSequences = [
   {
-    prompt: "우주 정거장에서 바라본 지구의 일출, 시네마틱 카메라 워크",
-    resultTitle: "우주 정거장의 일출",
-    gradient: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
+    prompt: "두 캐릭터가 에픽하게 싸우는 시네마틱 전투 장면",
+    resultTitle: "Epic Battle",
+    thumbnail: "/templates/epic-battle.png",
+    gradient: "linear-gradient(135deg, #FF4500, #DC143C, #8B0000)",
   },
   {
     prompt: "지브리 스타일의 꽃밭을 걷는 소녀, 바람에 흔들리는 풀잎",
-    resultTitle: "지브리 스타일 꽃밭",
-    gradient: "linear-gradient(135deg, #1a2a1a 0%, #2a3a20 50%, #1a3020 100%)",
+    resultTitle: "K-POP Dance",
+    thumbnail: "/templates/kpop-dance.png",
+    gradient: "linear-gradient(135deg, #FF69B4, #9370DB, #00CED1)",
   },
   {
-    prompt: "네온 도시에서 달리는 오토바이, 비 오는 밤의 추격전",
-    resultTitle: "네온 도시 추격전",
-    gradient: "linear-gradient(135deg, #1a0a2e 0%, #2a1040 50%, #1a1a3e 100%)",
+    prompt: "에너지 빔을 쏘며 충돌하는 초능력 배틀 장면",
+    resultTitle: "Superpower Clash",
+    thumbnail: "/templates/superpower-clash.png",
+    gradient: "linear-gradient(135deg, #00BFFF, #7B68EE, #FF00FF)",
   },
   {
-    prompt: "드래곤이 화염을 내뿜으며 하늘을 나는 판타지 장면",
-    resultTitle: "드래곤의 비행",
-    gradient: "linear-gradient(135deg, #2a1a0a 0%, #3a2010 50%, #2a1a1a 100%)",
+    prompt: "비 내리는 밤, 사무라이 스타일의 긴박한 검술 대결",
+    resultTitle: "Sword Duel",
+    thumbnail: "/templates/sword-duel.png",
+    gradient: "linear-gradient(135deg, #2F4F4F, #708090, #C0C0C0)",
   },
   {
-    prompt: "맑은 바다 산호초 사이를 헤엄치는 거북이, 빛줄기",
-    resultTitle: "산호초 바다의 거북이",
-    gradient: "linear-gradient(135deg, #0a1a2a 0%, #0a2a3a 50%, #0a2a2a 100%)",
+    prompt: "마이크 잡고 관중 앞에서 치열한 랩 배틀",
+    resultTitle: "Rap Battle",
+    thumbnail: "/templates/rap-battle.png",
+    gradient: "linear-gradient(135deg, #FFD700, #FF4500, #000000)",
   },
 ];
 
@@ -262,7 +267,7 @@ export default function Hero() {
                 {/* Video thumbnail */}
                 <div
                   className="relative aspect-video overflow-hidden rounded-xl"
-                  style={{ background: current.gradient }}
+                  style={{ background: `url(${current.thumbnail}) center/cover no-repeat, ${current.gradient}` }}
                 >
                   {/* Play icon */}
                   <div className="absolute inset-0 flex items-center justify-center">
