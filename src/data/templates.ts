@@ -197,10 +197,4 @@ export const galleryItems: GalleryItem[] = [
   { id: 'g10', templateId: 'music-video', title: '내 강아지 뮤직비디오', views: 8100, likes: 598, createdAt: '9시간 전', creationMode: 'template' },
   { id: 'g11', templateId: 'horror-react', title: '친구 깜짝 놀래키기', views: 13600, likes: 1020, createdAt: '11시간 전', creationMode: 'template' },
   { id: 'g12', templateId: 'cooking-showdown', title: '고든 램지 vs 백종원', views: 16800, likes: 1250, createdAt: '14시간 전', creationMode: 'template' },
-  // 프롬프트 기반
-  { id: 'g13', thumbnail: '/gallery/space-sunrise.png', title: '우주 정거장에서 본 지구 일출', views: 18300, likes: 1340, createdAt: '3시간 전', prompt: '우주 정거장 창밖으로 보이는 지구 일출, 시네마틱 슬로우 모션, 태양 빛이 대기를 통과하며 빛나는 장면', creationMode: 'prompt' },
-  { id: 'g14', thumbnail: '/gallery/ghibli-summer.png', title: '지브리풍 여름날 시골 풍경', views: 11200, likes: 987, createdAt: '5시간 전', prompt: '지브리 스타일의 여름 시골 풍경, 논밭 사이 길을 걷는 소녀, 뭉게구름, 바람에 흔들리는 풀', creationMode: 'prompt' },
-  { id: 'g15', thumbnail: '/gallery/cyberpunk-rain.png', title: '사이버펑크 도시의 비 오는 밤', views: 9500, likes: 721, createdAt: '7시간 전', prompt: '네온사인이 빛나는 사이버펑크 골목, 비에 젖은 도로에 반사되는 조명, 우산 쓴 사람이 걸어가는 장면', creationMode: 'prompt' },
-  { id: 'g16', thumbnail: '/gallery/dragon-castle.png', title: '드래곤이 성 위를 나는 판타지', views: 7800, likes: 612, createdAt: '10시간 전', prompt: '거대한 드래곤이 중세 성 위를 날며 화염을 내뿜는 에픽한 판타지 장면, 석양 배경', creationMode: 'prompt' },
-  { id: 'g17', thumbnail: '/gallery/jellyfish-deep.png', title: '심해 탐험 - 빛나는 해파리', views: 6100, likes: 489, createdAt: '1일 전', prompt: '깊은 바다 속 형형색색 빛나는 해파리 떼, 어둠 속에서 은은하게 빛나는 수중 세계', creationMode: 'prompt' },
 ];
