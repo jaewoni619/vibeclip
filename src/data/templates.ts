@@ -194,7 +194,7 @@ export const galleryItems: GalleryItem[] = [
   { id: 'g6', templateId: 'superpower-clash', title: '마리오 vs 소닉 에너지 대결', views: 8900, likes: 654, createdAt: '4시간 전', creationMode: 'template' },
   { id: 'g7', templateId: 'kpop-dance', title: '내 캐릭터들의 K-POP 댄스', views: 6700, likes: 432, createdAt: '6시간 전', creationMode: 'template' },
   { id: 'g8', templateId: 'rap-battle', title: '아인슈타인 vs 뉴턴 랩배틀', views: 15200, likes: 1100, createdAt: '8시간 전', creationMode: 'template' },
-  { id: 'g9', templateId: 'chase-scene', title: '아기 vs 로봇 추격전', views: 5400, likes: 321, createdAt: '1일 전', creationMode: 'template' },
+  { id: 'g9', templateId: 'chase-scene', title: '두 사무라이의 결투', views: 5400, likes: 321, createdAt: '1일 전', creationMode: 'template' },
   { id: 'g10', templateId: 'sword-duel', title: '사무라이 테디베어 대결', views: 7300, likes: 543, createdAt: '1일 전', creationMode: 'template' },
   { id: 'g11', templateId: 'music-video', title: '내 강아지 뮤직비디오', views: 8100, likes: 598, createdAt: '9시간 전', creationMode: 'template' },
   { id: 'g12', templateId: 'dramatic-meeting', title: '우리 부모님 첫만남 재현', views: 4200, likes: 287, createdAt: '2일 전', creationMode: 'template' },
