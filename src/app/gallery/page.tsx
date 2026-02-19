@@ -78,15 +78,13 @@ export default function GalleryPage() {
                     <div
                       className="relative flex h-48 items-center justify-center"
                       style={{
-                        background: tpl?.gradient || "linear-gradient(135deg, #0A1A2F 0%, #0A1A3F 50%, #0A2A1F 100%)",
+                        background: tpl
+                          ? `url(${tpl.thumbnail}) center/cover no-repeat, ${tpl.gradient}`
+                          : item.thumbnail
+                            ? `url(${item.thumbnail}) center/cover no-repeat, linear-gradient(135deg, #0A1A2F 0%, #0A1A3F 50%, #0A2A1F 100%)`
+                            : "linear-gradient(135deg, #0A1A2F 0%, #0A1A3F 50%, #0A2A1F 100%)",
                       }}
                     >
-                      {tpl && (
-                        <>
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img src={tpl.thumbnail} alt={tpl.name} className="absolute inset-0 h-full w-full object-cover" loading="lazy" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-                        </>
-                      )}
                       <span className="absolute bottom-2 right-2 rounded bg-background/70 px-2 py-0.5 text-xs text-foreground/60 backdrop-blur-sm">
                         0:05
                       </span>
@@ -166,15 +164,13 @@ export default function GalleryPage() {
                     <div
                       className="relative flex h-44 items-center justify-center"
                       style={{
-                        background: tpl?.gradient || "linear-gradient(135deg, #0A1A2F 0%, #0A1A3F 50%, #0A2A1F 100%)",
+                        background: tpl
+                          ? `url(${tpl.thumbnail}) center/cover no-repeat, ${tpl.gradient}`
+                          : item.thumbnail
+                            ? `url(${item.thumbnail}) center/cover no-repeat, linear-gradient(135deg, #0A1A2F 0%, #0A1A3F 50%, #0A2A1F 100%)`
+                            : "linear-gradient(135deg, #0A1A2F 0%, #0A1A3F 50%, #0A2A1F 100%)",
                       }}
                     >
-                      {tpl && (
-                        <>
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img src={tpl.thumbnail} alt={tpl.name} className="absolute inset-0 h-full w-full object-cover" loading="lazy" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-                        </>
-                      )}
                       <span className="absolute bottom-2 right-2 rounded bg-background/70 px-2 py-0.5 text-xs text-foreground/60 backdrop-blur-sm">
                         0:05
                       </span>

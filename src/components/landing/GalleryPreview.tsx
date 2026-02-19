@@ -40,7 +40,9 @@ export default function GalleryPreview() {
                   style={{
                     background: tpl
                       ? `url(${tpl.thumbnail}) center/cover no-repeat, ${tpl.gradient}`
-                      : "linear-gradient(135deg, #0A1A2F 0%, #0A1A3F 50%, #0A2A1F 100%)",
+                      : item.thumbnail
+                        ? `url(${item.thumbnail}) center/cover no-repeat, linear-gradient(135deg, #0A1A2F 0%, #0A1A3F 50%, #0A2A1F 100%)`
+                        : "linear-gradient(135deg, #0A1A2F 0%, #0A1A3F 50%, #0A2A1F 100%)",
                   }}
                 >
                   {/* thumbnail shown via CSS background-image on parent */}

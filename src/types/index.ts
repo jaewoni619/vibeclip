@@ -29,6 +29,7 @@ export interface PromptSuggestion {
 export interface GalleryItem {
   id: string;
   templateId?: string;
+  thumbnail?: string;
   title: string;
   views: number;
   likes: number;
